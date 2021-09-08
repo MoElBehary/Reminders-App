@@ -13,8 +13,30 @@
 .iM0-menu{
     background-image: url('../icons/menuIcon.svg') ;
 }
+.iM0-reminder{
+    background-image: url('../icons/reminder.svg') ;
+}
+.iM0-pocket{
+    background-image: url('../icons/pocket.svg') ;
+}
+.iM0-categories{
+    background-image: url('../icons/categories.svg') ;
+}
+.iM0-archive{
+    background-image: url('../icons/archive.svg') ;
+}
+.iM0-userImage{
+    background-image: url('../icons/userImage.svg') ;
+}
+.iM0-logout{
+    background-image: url('../icons/logout.svg') ;
+}
 /* icons Sizes */
 .iM0-size-a{
     width: 32px;
     height: 32px;
+}
+.iM0-size-b{
+    width: 72px;
+    height: 72px;
 }

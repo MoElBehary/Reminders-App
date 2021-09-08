@@ -6,14 +6,18 @@ body{
 li{
     list-style: none;
 }
+a:hover{
+    color: #F8F9FA !important;
+    text-decoration: none !important;
+}
 /* Elements ===END */
 /* Aside ===START */
 .M0-main-aside{
+    position: sticky;
+    top: 0;
     width: 462px;
     height: 100Vh;
-    left: 0;
-    /* transition: all ease-in-out 400ms; */
-    transition: all linear 400ms;
+    transition: all ease-in-out 200ms;
 }
 .M0-aside-header{
     height: 80px;
@@ -25,9 +29,13 @@ li{
 .M0-main-nav{
     width: 100%;
     height: 176px;
-    background-color: red;
 }
 .M0-master-container{
     width: 100%;
     padding: 20px;
 }
+/* Tasks ===START */
+.M0-Create-new-task{
+    height: 120px;
+}
+/* Tasks ===END */
