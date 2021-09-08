@@ -71,10 +71,10 @@ function mainAsideTemp(){
         }
         myTemp += `
                         </ul>
-                        <div class=' cM0-bg-main-25 d-flex mt-auto align-content-center pt-4 pb-2'>
+                        <div class=' cM0-bg-main-25 d-flex mt-auto align-items-center pt-4 pb-2'>
                             <i class=' ${asideObj.user.userImage} iM0-size-b d-inline-block uM0-image-contain mx-4'></i>
-                            <p class='m-0 align-self-center'>${asideObj.user.userName}</p>
-                            <i class='iM0-logout align-self-center iM0-size-a d-inline-block uM0-image-contain mr-4 ml-auto'></i>
+                            <p class='m-0'>${asideObj.user.userName}</p>
+                            <i class='iM0-logout iM0-size-a d-inline-block uM0-image-contain mr-4 ml-auto'></i>
                         </div>
                     </section>
                 `

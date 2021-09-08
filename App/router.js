@@ -1,5 +1,5 @@
 
-// import { TaskPage } from './view/pages/task.page.js'
+import { TaskPage } from './view/pages/task.page.js'
 import { ReminderPage } from './view/pages/reminder.page.js'
 import { App } from './view/app.js'
 window.onhashchange  = function(){

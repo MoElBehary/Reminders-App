@@ -31,6 +31,12 @@
 .iM0-logout{
     background-image: url('../icons/logout.svg') ;
 }
+.iM0-moreTask{
+    background-image: url('../icons/moreTask.svg') ;
+}
+.iM0-delete{
+    background-image: url('../icons/delete.svg') ;
+}
 /* icons Sizes */
 .iM0-size-a{
     width: 32px;

@@ -10,6 +10,9 @@ a:hover{
     color: #F8F9FA !important;
     text-decoration: none !important;
 }
+input{
+    outline: none;
+}
 /* Elements ===END */
 /* Aside ===START */
 .M0-main-aside{
@@ -37,5 +40,19 @@ a:hover{
 /* Tasks ===START */
 .M0-Create-new-task{
     height: 120px;
+}
+.M0-task-card{
+    height: 120px;
+    border: 2px solid #393D42
+}
+.M0-more-tools{
+    width: 80px;
+}
+.M0-tools{
+    width: 120px;
+}
+.M0-tool-bar{
+    right: -600px;
+    transition: ease-in-out all .2s;
 }
 /* Tasks ===END */
